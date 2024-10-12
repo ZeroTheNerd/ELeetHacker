@@ -1,14 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-/* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution */
-int n = int.Parse(Console.ReadLine());
+﻿//This code is that HackerRank needs for it to work
+/*int n = int.Parse(Console.ReadLine());
 int[] ar = new int[n];
 // Read entire line and split it into parts
 string[] inputs = Console.ReadLine().Split(' ');
 for (int i = 0; i < n; i++)
 {
     ar[i] = int.Parse(inputs[i]); // Parse each input as an integer
-}
-
+}*/
+//Test Data
+int[] array = [1, 3, 9, 8, 2, 7, 5];
+quicksort(array, 0, array.Length - 1);
 static void quicksort(int[] array, int lo, int hi)
 {
     if (lo >= hi || lo < 0) return;
