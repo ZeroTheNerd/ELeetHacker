@@ -1,7 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-List<int> arr = [4, 5, 3, 7, 2];
+﻿List<int> arr = [4, 5, 3, 7, 2];
+quickSort(arr);
 
 static List<int> quickSort(List<int> arr)
 {
@@ -42,4 +40,3 @@ static List<int> quickSort(List<int> arr)
     return partitionedArr;
 }
 
-}
