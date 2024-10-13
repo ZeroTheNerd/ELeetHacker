@@ -6,24 +6,14 @@
 
     for (int i = 0; i < n; i++)
     {
-        // Read the line
         string input = Console.ReadLine();
 
         // Split the input into the integer and string part
         string[] parts = input.Split(' ');
-        int value = int.Parse(parts[0]); // The first part is the integer
+        int value = int.Parse(parts[0]);
 
-        // Increment the count for this value
         numCount[value]++;
     }
-    // for (int i = 0; i < 100; i++)
-    // {
-    //     numCount.Add(0);
-    // }
-    // for(int i = 0; i < ar.Count; i++) { 
-    //     numCount[ar[i]]++;
-
-    // }
     int sum = 0;
     for (int i = 0; i < 100; i++)
     {
