@@ -10,7 +10,7 @@ public class JavaStringTokens {
         messageArr = Arrays.stream(messageArr)
                 .filter(s -> !s.isEmpty())
                 .toArray(String[]::new);
-            System.out.println(messageArr.length);
+        System.out.println(messageArr.length);
 
         for(int i = 0; i < messageArr.length; i++) {
             System.out.println(messageArr[i]);
